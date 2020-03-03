@@ -1,0 +1,21 @@
+{
+  "name": "russell-angelio-pardo",
+  "version": "1.0.0",
+  "description": "Russell's website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.2",
+    "express-handlebars": "^3.1.0",
+    "express-session": "^1.11.3",
+    "mysql": "^2.8.0"
+  },
+  "author": "Sarah Pardo",
+  "license": "ISC"
+}

@@ -1,0 +1,101 @@
+<html>
+<title>Russell's family</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="family.css">
+
+
+    <nav>
+        <ul class="pages">
+            <img src="https://i.ibb.co/vH1R2Xd/20190602-132454.jpg" alt="20190602-132454" style="w3-small width:100%" align="left">
+          <li><a href="home.html" >Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="news.html" >Latest News</a></li>
+          <li><a href="family.html"class="active" >Our Family</a></li>
+        </ul>
+    </nav>
+<head>
+<center><h1>The Family</h1>
+</head>
+
+<body>
+<h3>The Huge Countdown<br />
+Until this PUP ain't no pup no more!</h3>
+<p id="surprise"></p>
+<script>
+var countDownDate = new Date("Apr 3, 2020 00:00:00").getTime();
+var x = setInterval(function() {
+    var now = new Date().getTime();
+    var distance = countDownDate - now;
+
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    document.getElementById("surprise").innerHTML = days + "d " + hours + "h " +
+        minutes + "m " + seconds + "s ";
+
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("surprise").innerHTML = "HAPPY FIRST BIRTHDAY RUSSELL!!";
+    }
+}, 1000);
+</script>
+
+</center>
+
+<a href="https://ibb.co/vH1R2Xd"><img align="right" src="https://i.ibb.co/R92dLj6/20190602-132454.jpg" alt="20190602-132454" border="0"></a>
+<div align="center"><h3>Birthday Ideas for this Special PUP</h3></div>
+
+
+<dir class="secondlist" style="list-style-type:square;" align="justified"><!--copied directly from website:petlandflorida.com
+https://www.petlandflorida.com/fun-ways-to-celebrate-your-puppys-first-birthday/-->
+  <p1>Bake a dog-friendly treat or cake. There’s no better way to show your puppy some <br />
+  love on their first birthday than to bake them a delicious treat!</p1><br /><br />
+  <p1>Throw a puppy birthday party. Birthday parties aren’t just for humans—puppies can <br />
+  definitely partake in the fun! Share yummy puppy treats and cakes with all fur-babies.</p1><br /><br />
+  <p1>Give your pup a new toy. Make your pup’s first birthday a happy one by giving them a <br />
+  brand new toy. Your puppy will love it!</p1><br /><br />
+  <p1>Pamper and spoil your pup. An easy way to make your puppy’s birthday extra special is by <br />
+  spoiling and pampering them. By simply giving them your undivided attention and love during their <br />
+  birthday, your pup’s mood will instantly improve.</p1><br /><br />
+  <p1>Take your pup to a dog-friendly park or restaurant. Taking your puppy out on an adventure helps <br />
+  make their birthday extra special. Look for nearby dog-friendly parks and take them out for a long walk.</p1><br /><br />
+  <p1>Snap a cute photo of you and your pup. Commemorate your pup’s first birthday with an adorable <br />
+  photo of you and your puppy.</p1>
+</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<h4 align="left">This Week: Recommended Pet-Friendly Informational/Fun Sites:</h4>
+
+<dl><div class="vertical-menu">
+  <dt>The Dodo for animal people</dt>
+  <dd>Caring about animals a viral cause</dd>
+  <a href="https://www.thedodo.com/">thedodo.com</a>
+  <br />
+  <dt>American Kennel Club</dt>
+  <dd>For the Love of All Things Dog</dd>
+  <a href="https://www.akc.org/">akc.org</a>
+  <br />
+  <dt>Dog Time</dt>
+  <dd>With the Latest News and Reviews</dd>
+  <a href="https://dogtime.com/">dogtime.com</a>
+  <br />
+  <dt>iHeartDogs</dt>
+  <dd>Make an impact with every purchase.</dd>
+  <a href="https://iheartdogs.com/">iheartdogs.com</a>
+</div></dl>
+<br />
+
+
+
+
+</body>
+</html>

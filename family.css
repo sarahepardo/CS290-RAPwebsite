@@ -1,0 +1,65 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(42, 158, 139);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-align: right;
+    padding: 81px 40px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(35, 224, 183);
+}
+
+.active {
+    background-color: rgb(34, 112, 95);
+}
+
+h1 {
+    color: black;
+}
+
+body {
+    background-color: rgb(255, 220, 154);
+}
+
+p {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0px;
+    background-color: darkorange;
+}
+
+.vertical-menu {
+    width: 300px;
+    text-align: center;
+}
+
+.secondlist li {
+    background-color: aliceblue;
+    color: black;
+}
+
+.vertical-menu a {
+    background-color: rgb(206, 145, 54);
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.vertical-menu a:hover {
+    background-color: rgb(224, 52, 52);
+}
